@@ -4,7 +4,7 @@ Esta é a página de início, onde você pode começar a explorar o mundo da tec
 
 - **Artigos Técnicos:** Publicaremos artigos detalhados sobre desenvolvimento web, programação, melhores práticas de codificação e muito mais. Explore esses recursos para aprimorar suas habilidades de programação.
 
-**Experiências na Vida Real:** Compartilharei minhas experiências e insights durante meu tempo na tecnologia!
+- **Experiências na Vida Real:** Compartilharei minhas experiências e insights durante meu tempo na tecnologia!
 
 - **Dicas e Truques:** Encontre dicas úteis e truques para simplificar seu trabalho de desenvolvimento e tornar sua vida mais fácil.
 
