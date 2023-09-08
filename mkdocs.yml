@@ -1,0 +1,94 @@
+# INHERIT: active-handout.yml
+
+site_name: O Tal do Dev
+site_description: Blog sobre desenvolvimento de software
+site_author: O Tal do Dev
+site_url: https://otaldodev.com.br
+
+repo_name: otaldodev/otaldodev.github.io
+repo_url: https://github.com/O-Tal-do-Dev/o-tal-do-dev
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/O-Tal-do-Dev"  target="_blank" rel="noopener">O Tal do Dev</a>
+
+extra_javascript:
+  - js/tabs.js
+  - js/termynal.js
+  - js/custom.js
+
+extra_css:
+  - css/termynal.css
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - navigation.footer
+  language: pt
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Modo escuro
+      primary: #607d8b
+      accent: red
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Modo claro
+      primary: #607d8b
+      accent: red
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+plugins:
+  - social
+  - blog:
+      posts_dir: posts
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/O-Tal-do-Dev
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/otaldodev/
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - Sobre: sobre.md
+  - Projetos:
+      - "Step Functions":
+          - projetos/Step Functions/projeto1.1.md
+          - projetos/Step Functions/projeto1.2.md
+
+      - Projeto 2: projetos/projeto2.md
+
+  - Blog:
+      - blog/index.md
+  - Contato: contato.md
